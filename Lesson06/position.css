@@ -3,6 +3,7 @@
     width: 900px;
     margin: 30px auto;
     position: relative;
+    margin-top: 80px;
 }
 
 p{
@@ -27,3 +28,32 @@ p{
     right: 0;
     top: 0;
 }
+
+.menu {
+	background-color: rgba(0,0,0,0.6);    
+    margin: auto;   
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    z-index: 9999;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    margin: auto;
+}
+.menu li{
+    display: inline-block;    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px 30px;
+    display: block;
+}
+
