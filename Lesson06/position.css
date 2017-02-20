@@ -8,6 +8,9 @@
 
 p{
     position: relative;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .red {
@@ -32,7 +35,7 @@ p{
 .menu {
 	background-color: rgba(0,0,0,0.6);    
     margin: auto;   
-    font-family: sans-serif;
+    font-family: tahoma;
     position: fixed;
     top: 0;
     left: 0;

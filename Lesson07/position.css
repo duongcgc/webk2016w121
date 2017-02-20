@@ -1,0 +1,66 @@
+.menu {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: auto;
+  font-family: Myriad Pro;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  margin: auto;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px 30px;
+  display: block;
+}
+
+.wrapper {
+  border: solid 1px #888;
+  width: 1000px;
+  margin: 30px auto;
+  position: relative;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.wrapper p {
+  position: relative;
+  font-family: Myriad Pro;
+  font-size: 14px;
+}
+
+.wrapper .red {
+  background: red;
+  color: white;
+  width: 333.33333px;
+  padding: 10px;
+  position: relative;
+  left: 0;
+  top: 0;
+  font-family: Myriad Pro;
+}
+
+.wrapper .green {
+  background: rgba(8, 74, 11, 0.6);
+  color: white;
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
