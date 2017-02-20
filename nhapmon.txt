@@ -1,0 +1,66 @@
+﻿HTML
+
+
+T: Text - văn
+M: Markup - đánh dấu (văn bản)
+H: Hyper - siêu
+L: Language - ngôn ngữ
+
+Ngôn ngữ đánh dấu siêu văn bản - Dùng để đánh dấu văn bản - Tạo thành những nội dung đa năng trên Browser (UI)
+
+HTML: Chỉ để làm nội dung (không định dạng, màu sắc, bố cục đồ họa)
+CSS: Định dạng đồ họa chính, tương tác, animation,...
+
+
+* Cú pháp code html chung:
+
+1. Đơn giản
+     <tên_thẻ>  Văn bản hoặc nội dung cả thẻ khác </tên_thẻ>
+     ex:   <h1> This is Heading </h1>
+
+2. Cú pháp đầy đủ
+
+    <tên_thẻ   thuộc_tính = "giá trị"   thuộc_tinhs2 = "giá trị 2">
+                Nội dung
+    </tên_thẻ>
+
+* Bộ thẻ thông dụng
+
+1. Thẻ tiêu đề   h (từ 1-6)  theo cấp độ h1 lớn nhất , h6 nhỏ nhất
+(nhìn vào thiết kế nếu ý nghĩa là tiêu đề thì dùng thẻ h để tạo)
+
+2. Đoạn văn bản p (nhiều dòng)
+
+3. Danh sách nội dung tương tự khác chút dùng ul li
+
+<ul>
+    <li> nội dung </li>
+
+4. Nội dung Media (ảnh, video, audio)
+
+5. Liên kết   <a  href="link"> Nội dung </a>
+
+6. Dựng cấu trúc, không biết dùng thẻ gì 
+
+* Khối bố cục chính, lớn, to, cứng .. bọc bằng - Div
+
+* Phần nhỏ nhỏ, không xác định ý nghĩa thẻ nào - span
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

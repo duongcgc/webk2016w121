@@ -1,0 +1,27 @@
+﻿1. Cú pháp
+
+ten_the{
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+}
+
+ten_the2{
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+}
+
+2. Nguyên tắc
+
+* Muốn style thành phần nào (thẻ) thì phải chọn tên (h1, .contact,...) chính xác mới có tác dụng.
+
+* Nguyên tắc đè chồng
+- Nếu css chỉ vào cùng thành phần (div, .contact) thì nội dung đều bị ảnh hưởng
+
+- Nếu nhiều css chỉ vào cùng 1 thành phần và cùng thuộc tính đồ họa (vd: font-size, color,...) thì cái nào viết code sau cùng sẽ được sử dụng, và những cái thuộc tính trước sẽ bị loại bỏ.
+
+
+
+
+

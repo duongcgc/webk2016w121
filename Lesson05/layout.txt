@@ -1,0 +1,5 @@
+﻿1. Layout (chia hàng, chia cột)
+
+2. Position (định vị, vị trí của thành phần trong block)
+
+3. Grid (các khối sắp xếp đều, theo dạng hàng cột nào đó)

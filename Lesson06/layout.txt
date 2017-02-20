@@ -1,0 +1,12 @@
+﻿1. Layout (chia hàng, chia cột)
+
+2. Position (định vị, vị trí của thành phần trong block)
+Có 2 cách định vị đối tượng
+- Tuyệt đối (absolute) - tọa độ top, right,... theo bọc lớn nhất
+- Tương đối (relative) - tọa độ theo chính nó hoặc position:relative để đánh dấu làm gốc cho các thành phần bên trong (ưu tiên gần nhất)
+
+
+3. Grid (các khối sắp xếp đều, theo dạng hàng cột nào đó)
+* Các thành phần (tag div) làm lưới không nên format, style - không hiển thị khi lên web
+* Chỉ format, style những thành phần bên trong lưới
+* Các nguyên tắc định dạng lưới đều tương tự như Layout thông thường

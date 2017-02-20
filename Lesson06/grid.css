@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+	width: 900px;
+    margin: auto;
+    background-color: aqua;
+}
+.grid_col,.grid_row {
+/*	border: solid 1px #999;*/
+}
+.grid_row {	
+    overflow: hidden;  
+}
+.grid_col {
+	width: 33.33%;
+    padding: 10px;
+    float: left;
+}
+.content {
+	background-color: gray;
+    min-height: 50px;
+}
+
+.grid_col:first-child .content{
+	background-color: red;
+}
+.grid_col:last-child .content{
+	background-color: green;
+}
+.grid_col:nth-child(4) .content{
+	background-color: blue;
+}
+
+.five_col .grid_col{
+	width: 20%;
+}

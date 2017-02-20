@@ -1,0 +1,54 @@
+body{
+    font-family: Roboto;
+}
+
+#contact{
+    background-color: #383838;
+}
+
+#contact *{
+    color: white;
+}
+
+h2{
+    font-size: 46px; 
+    text-transform: capitalize;
+    line-height: 46px;
+}
+p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.title {
+	padding-top: 110px;
+    padding-bottom: 110px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h2, .title p{
+	text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+#contact .title p{
+	color: #35e019;
+}
+.contact-form{
+    overflow: auto;
+}
+form{
+    width: 70%;
+}
+.info{
+    width: 30%;
+    float: right;
+}
+
+.send{
+    background-color: #d53e3e;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    display: block;
+}

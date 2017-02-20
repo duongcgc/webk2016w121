@@ -1,0 +1,41 @@
+﻿CONTENT FIRST - HTML FIRST
+
+Đặt tên cho thẻ html (tag)
+
+<tên_thẻ  id="tên_duy_nhất_trong_page"  class="tên_dùng_chung">
+     nội dung
+</tên_thẻ>
+
+vd:
+
+<h1 class="tiêu_đề">  nội dung </h1>
+<h3 class="tiêu_đề"> nội dung </h3>
+
+Quy tắc đặt tên (nên có ý nghĩa chức năng, đặc điểm của đối tượng):
+- Chỉ dùng những ký tự a-z, A-Z, 0 - 9 và _ và -
+- Không bắt đầu bằng số
+- Có thể cùng đặt cả id lẫn class
+- Có thể đặt nhiều tên cho 1 class (vd  <h1   class="ten1 ten_2 ten-3">
+
+
+Convert PSD sang HTML
+
+1. Nhìn vào design, chọn thẻ html phù hợp - ý nghĩa, chức năng với thành phần đồ họa nhỏ nhất tương ứng (text, heading, image, list, paragraph ...) theo bộ thẻ html đơn lẻ. 
+* Nhìn từ trong ra ngoài, từ bé đến lớn, đi từ trên xuống dưới design
+, từ trái sang phải
+* Mẹo nhìn theo tên (layer psd) để đặt tên cho class
+
+2. Nếu không có PSD thì nguyên tắc liên kết các thành phần
+- Nhìn vào ý nghĩa và chức năng của thành phần (chọn thẻ gì với thiết kế thành phần đó)
+- Nếu 2 thành phần trở lên có sự liên quan về mặt (thiết kế: gần nhau, cùng dòng, cùng vùng hoặc về mặt chức năng/đặc điểm: cùng mục menu, cùng icon,...) Thì bọc chúng vào chung 1 div - đặt tên (khi nào thì bọc)
+
+3. Luật bọc các thẻ với nhau (cái nào có thể bọc cái nào)
+- Phân biệt nhóm của thẻ html (block hay inline) - kiểm duyệt = trình duyệt
+(chắc chắn chọn inpect element rồi xem phần Computed > display)
+(nhanh thằng nào chiếm 1 dòng = block, nằm luôn cùng dòng = inline)
+- Tất cả block sẽ bọc tất cả (ngoại trừ thẻ h, p không bọc block ở bên trong), 
+còn inline chỉ nên bọc inline
+
+
+
+

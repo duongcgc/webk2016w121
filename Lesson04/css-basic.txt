@@ -1,0 +1,69 @@
+﻿1. Cú pháp
+
+ten_the{
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+}
+
+ten_the2{
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+   thuoc_tinh : gia_tri;
+}
+
+2. Nguyên tắc
+
+* Muốn style thành phần nào (thẻ) thì phải chọn tên (h1, .contact,...) chính xác mới có tác dụng.
+
+* Nguyên tắc đè chồng
+- Nếu css chỉ vào cùng thành phần (div, .contact) thì nội dung đều bị ảnh hưởng
+
+- Nếu nhiều css chỉ vào cùng 1 thành phần và cùng thuộc tính đồ họa (vd: font-size, color,...) thì cái nào viết code sau cùng sẽ được sử dụng, và những cái thuộc tính trước sẽ bị loại bỏ.
+
+3. Tên (css selector) bao gồm hoặc, và
+* Tên thẻ:  a, h1,...
+* Tên thẻ theo class: .ten
+* Tên thẻ theo id:  #ten
+
+Tên có thể gọi riêng (thẻ, class hoặc id - ảnh hưởng nhiều thành phần html tag) nhưng để cụ thể theo class/id hoặc tập hợp các tên theo cách viết như sau (viết liền không có vuông):
+
+[ten1][ten2][ten3] .... {}
+
+Trong đó: 
+- Nếu viết liền mạch thì tất cả các tên của danh sách là trong 1 thẻ
+- Nếu có "dấu cách" thì là trỏ vào thẻ con/cháu/chắt bên trong, nếu dùng dấu ">" thì là trỏ tiếp vào thẻ con 1 cấp
+
+vd: body#wrapper   h1.heading#main   ul>li{}
+html:
+
+<body id="wrapper">
+      <h1 class="heading" id="main">
+           <ul>
+               <li class="child">
+                   <li>
+
+Chỉ định dạng các thẻ li (nằm cuối cùng gần dấu {} nhất) cấp đầu tiên thuộc ul nằm trong h1 có id="main" và class="heading", thuộc thẻ body có id="wrapper"
+
+
+li{} : tất cả các thẻ li bên trong html đều bị định dạng
+
+4. Thuộc tính đồ họa
+
+- Toàn bộ các code css định dạng cho thẻ html (nếu không thẻ có thể html thì không định dạng được)
+
+- Và thiết kế đồ họa đều có thuộc tính CSS tương ứng cho thiết kế có các nhóm:
++ Văn bản bên trong thẻ tag (text - theo block)
++ Đồ họa của thẻ đó (block)
++ Bố trí bố cục, căn chỉnh trong  (align, position,... theo tag bọc bên ngoài)
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+#header .logo, #header .nav{ 
+    display: inline-block; 
+}
+#header .nav ul{
+    list-style-type: none;    
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+#header .nav ul li{ 
+    display: inline-block; 
+}
+#contact form{ 
+    width: 70%;    
+    float: left; 
+}
+#contact .info{    
+    width: 30%;    
+    float: left; 
+}
+#contact .info ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.send{ 
+    display: block;
+}
