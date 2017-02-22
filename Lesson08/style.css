@@ -1,0 +1,86 @@
+.back_color_01 {
+  background-color: #FFC000;
+}
+
+.back_color_02 {
+  background-color: #363636;
+}
+
+.back_color_03 {
+  background-color: #808080;
+}
+
+.back_color_04 {
+  background-color: #b7b7b7;
+}
+
+.back_color_05 {
+  background-color: #d7d7d7;
+}
+
+.back_color_06 {
+  background-color: #f4f4f4;
+}
+
+.back_color_07 {
+  background-color: #c7c7c7;
+}
+
+.back_color_08 {
+  background-color: #d2d3d4;
+}
+
+.back_color_09 {
+  background-color: #f6a7c8;
+}
+
+.back_color_10 {
+  background-color: #d5f3d1;
+}
+
+.text_color_01 {
+  color: white;
+}
+
+.text_color_02 {
+  color: gray;
+}
+
+.text_color_03 {
+  color: red;
+}
+
+.block {
+  font-family: 'Dancing Script';
+  border: solid 1px;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px 60px;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+.block_shadow {
+  font-family: 'Dancing Script';
+  border: solid 1px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 0;
+  box-shadow: 1px 2px gray;
+}
+
+.block_circle {
+  font-family: 'Dancing Script';
+  border: solid 1px;
+  display: inline-block;
+  margin: 0;
+  padding: 0 0;
+  text-transform: uppercase;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}

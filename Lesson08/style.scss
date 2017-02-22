@@ -1,0 +1,54 @@
+$color: ( '01': #FFC000, 
+          '02': #363636, 
+          '03': #808080,     
+          '04': #b7b7b7,     
+          '05': #d7d7d7,         
+          '06': #f4f4f4,     
+          '07': #c7c7c7,     
+          '08': #d2d3d4,     
+          '09': #f6a7c8,     
+          '10': #d5f3d1, 
+);
+
+@each $name, $value in $color{
+    .back_color_#{$name}{ 
+        background-color: $value;         
+    }
+}
+
+$tcolor: (
+    '01' : white,
+    '02' : gray,
+    '03' : red,
+);
+@each $name, $value in $tcolor{
+    .text_color_#{$name}{ 
+        color: $value; 
+    }
+}
+@mixin create_block($size,$radius){
+    font-family: 'Dancing Script';
+	border: solid 1px;
+    display: inline-block;
+    margin: $size;
+    padding: $size $size*3;
+    text-transform: uppercase;
+    border-radius: $radius;
+}
+.block {
+    @include create_block(20px,30px);
+}
+.block_shadow {
+    @include create_block(10px,0);
+    box-shadow: 1px 2px gray;
+}
+.block_circle {
+    @include create_block(0,50%);  
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;    
+}
+
+
+
