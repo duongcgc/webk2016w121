@@ -1,0 +1,52 @@
+$site_width: 100%;
+$site_font: 'Tahoma';
+$font-size: 14px;
+$gutter: 10px;
+$tablet: 480px;
+$desktop: 769px;
+$large: 1024px;
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: $site_font;
+    body{
+        font-size: $font-size;
+    }
+}
+// wrapper style
+.wrapper {
+	width: $site_width;
+    margin: auto;
+    img{
+        max-width: 100%;
+    }
+}
+
+// header style
+.header {
+	padding: $gutter;
+    display: none;
+    @media (min-width:$tablet){
+        display: block;
+    }
+}
+// row style
+.row {
+    overflow: hidden;
+	.column {
+        // default width: 100%
+        // if tablet width: 50%
+        @media (min-width:$tablet){
+            width: 50%;            
+        }
+        // if desktop
+        @media (min-width:$desktop){
+            width: 33.33%;
+        }
+        
+        float: left;
+        padding: $gutter;
+    }
+}

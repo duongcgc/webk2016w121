@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Tahoma";
+}
+
+html body {
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.wrapper img {
+  max-width: 100%;
+}
+
+.header {
+  padding: 10px;
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .header {
+    display: block;
+  }
+}
+
+.row {
+  overflow: hidden;
+}
+
+.row .column {
+  float: left;
+  padding: 10px;
+}
+
+@media (min-width: 480px) {
+  .row .column {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+  .row .column {
+    width: 33.33%;
+  }
+}
