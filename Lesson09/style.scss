@@ -23,6 +23,40 @@ html{
         max-width: 100%;
     }
 }
+// menu : mobile
+.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: $gutter;    
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        padding: $gutter;
+        display: block;
+        border: solid 1px #333;
+        border-bottom: none;
+        &:hover{
+            color: white;
+            background-color: dodgerblue;
+        }
+    }
+    li:last-child a{
+        border-bottom: solid 1px #333;
+    }
+    @media (min-width:$tablet){
+        li{
+            display: inline-block;
+            a{
+                border: none;
+            }
+        }
+        li:last-child a{
+            border-bottom: none;
+        }
+    }
+}
+
 
 // header style
 .header {

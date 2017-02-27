@@ -19,6 +19,43 @@ html body {
   max-width: 100%;
 }
 
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+  border: solid 1px #333;
+  border-bottom: none;
+}
+
+.menu a:hover {
+  color: white;
+  background-color: dodgerblue;
+}
+
+.menu li:last-child a {
+  border-bottom: solid 1px #333;
+}
+
+@media (min-width: 480px) {
+  .menu li {
+    display: inline-block;
+  }
+  .menu li a {
+    border: none;
+  }
+  .menu li:last-child a {
+    border-bottom: none;
+  }
+}
+
 .header {
   padding: 10px;
   display: none;
