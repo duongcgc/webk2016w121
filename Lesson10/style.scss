@@ -1,0 +1,48 @@
+$gutter: 30px;
+body{
+    padding-top: $gutter;
+    font-family: 'Roboto Slab', serif;
+    h1{
+        font-family: 'UVN But Long 1';
+    }
+}
+
+.row {
+    margin-bottom: $gutter;
+}
+.thumbnail {
+    padding: 0;
+    border: none;
+}
+
+.mybutton {
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.8);
+    background-image: -moz-linear-gradient( -90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);    
+    width: 227px;
+    height: 56px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    line-height: 56px;
+    .divider {
+	    display: block;
+        width: 1px;
+        height: 36px;
+        background-color: #5a5a5a;
+        border-right: solid 1px #383838;
+        margin-top: 10px;        
+        float: left;
+    }
+    .fa{
+        margin: 12px 20px;
+        font-size: 30px;
+        float: left;
+    }
+}

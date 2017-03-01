@@ -1,0 +1,51 @@
+body {
+  padding-top: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+
+body h1 {
+  font-family: 'UVN But Long 1';
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  padding: 0;
+  border: none;
+}
+
+.mybutton {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: -moz-linear-gradient(-90deg, black 0%, transparent 100%);
+  background-image: -webkit-linear-gradient(-90deg, black 0%, transparent 100%);
+  background-image: -ms-linear-gradient(-90deg, black 0%, transparent 100%);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  width: 227px;
+  height: 56px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Arial";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 56px;
+}
+
+.mybutton .divider {
+  display: block;
+  width: 1px;
+  height: 36px;
+  background-color: #5a5a5a;
+  border-right: solid 1px #383838;
+  margin-top: 10px;
+  float: left;
+}
+
+.mybutton .fa {
+  margin: 12px 20px;
+  font-size: 30px;
+  float: left;
+}
