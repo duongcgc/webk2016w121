@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-xs- col-sm- col-md- col-lg-">
+                    
+                    <button type="button" class="btn btn-danger">Move Mouse Here</button>
+               
+                </div>
+            </div>
+        </div>
+        
+        <div class="window"></div>
+
+   
+       <script src="jquery.js"></script>
+       <script>
+           
+           $when_over = function(){ $('.window').addClass('animated bounce'); }
+           $when_blur = function(){ $('.window').removeClass('animated bounce'); }
+           
+           $('.window').hover( $when_over , $when_blur );           
+            
+        </script>
+    </body>
+</html>

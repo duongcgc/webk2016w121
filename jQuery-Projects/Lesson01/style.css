@@ -1,0 +1,23 @@
+body {
+  padding: 30px;
+}
+
+.btn-danger {
+  transition: all 1s;
+}
+
+.btn-danger:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+  transform: scale(2);
+}
+
+.window {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: none;
+  border-right: solid 50px transparent;
+  border-bottom: solid 50px blue;
+  border-left: solid 50px transparent;
+}

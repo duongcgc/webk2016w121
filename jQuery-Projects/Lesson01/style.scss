@@ -1,0 +1,27 @@
+body{
+    padding: 30px;
+}
+
+.btn-danger {
+	transition: all 1s;
+    &:hover{
+        background-color: darkgreen;
+        border-color: darkgreen;
+        transform: scale(2);
+    }
+    
+}
+
+.window {
+//  background-color: gainsboro;
+//	width: calc(50% - 100px);
+    width: 0;
+    height: 0; 
+    margin: auto;
+    border: {
+        top: none;
+        right: solid 50px transparent;
+        bottom: solid 50px blue;
+        left: solid 50px transparent;
+    }
+}

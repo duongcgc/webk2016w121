@@ -1,0 +1,6 @@
+﻿1. Animation (css và jquery - framework js)
+2. Transform (css phóng to, thủ nhỏ, xoay,...)
+3. Before / after bằng css
+4. plugin của Bootstrap
+5. jQuery (điều khiển html, css tương tác động)
+6. jQuery (plugin)
