@@ -1,0 +1,16 @@
+.nav-tabs li.active > a {
+  background-color: coral !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.nav-tabs li a {
+  border-radius: 0;
+  text-transform: capitalize;
+}
+
+.tab-pane {
+  border: solid 1px #ddd;
+  border-top: none;
+  padding: 20px;
+}

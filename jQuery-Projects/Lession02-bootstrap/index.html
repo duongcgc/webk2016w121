@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">        
+            <h1>Bootstrap Tabs Demo</h1>
+
+            <div role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#home" aria-controls="home" role="tab" data-toggle="tab">home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">tab</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#about" aria-controls="about" role="tab" data-toggle="tab">about</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="home">ectetur adipisicing elit. Mollitia ut aspernatur voluptates distinctio dolor. Cumque fugiat nostrum quos, nihil id! Dolorem laudantium obcaecati molestiae quibusdam eum. Quaerat voluptatem expedita veritatis.</div>
+                    <div role="tabpanel" class="tab-pane fade " id="tab"><img class="img-responsive" src="images/screenshots_002.png" alt=""></div>
+                    <div role="tabpanel" class="tab-pane fade " id="about"><img class="img-responsive" src="images/superheros_fly_01.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> 
+    </body>
+</html>
