@@ -1,0 +1,36 @@
+$color_highlight: #ff6347;
+$color_dark: #333;
+
+#main-menu{
+    background-color: $color_dark;
+    .dropdown-menu {
+	    padding: 0;
+        border: none;
+        a{ 
+            padding: 15px;
+            color: $color_dark;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+    .open{
+        a{ background-color: $color_highlight;}
+        .dropdown-menu{            
+            a{
+                background-color: white;
+                color: $color_dark;
+                &:hover{
+                    background-color: $color_highlight;
+                    color: white;
+                }
+            }
+        }
+    }
+    a{
+        color: white;
+        &:hover{            
+            background-color: $color_highlight;
+        }
+    }
+}

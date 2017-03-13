@@ -1,0 +1,41 @@
+﻿DOM (Document Object Model)
+
+- Các đối tượng con gọi là Element (thực chất là các thẻ HTML)
+- Các thuộc tính thẻ HTML (class, id, src,...) đều gọi chung là Attribute
+- Các đối tượng có thể có các hành động, để hoạt động tương tác Action
+
+
+Làm việc với HTML thông qua jQuery
+
+- Chọn được thành phần qua tên (tên theo kiểu CSS)
+- Tùy từng mục đích bắt sự kiện, đưa ra hành động (lệnh) điều khiển đối tượng
+
+
+Cú pháp chung
+
+
+$( <tên thành phần html> ).action_name();  // hành động
+
+$( <tên thành phần html> ).action_name(    // sự kiện nếu
+       function(<param>){
+	
+	// ...  Code nếu action xảy ra	
+
+       }	
+); 
+
+
+Kịch bản tương tác
+
+- Chờ khi tải xong toàn bộ tài liệu (document) thì bắt đầu bước tiếp
+- Khi click chuột vào chữ Welcome (h1) thì thực hiện bên dưới
++ Hiển thị Popup chào mừng chữ "Thanks you for click, My name JQuery"
+
+
+
+
+
+
+
+
+
