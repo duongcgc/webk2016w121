@@ -1,0 +1,26 @@
+﻿I. Tự code
+
+- Mockup HTML và Style CSS trước
+- Những gì cần điều khiển mà HTML và CSS không hỗ trợ thì mới dùng đến jQuery
+
+* Đều có nguyên tắc và cú pháp chung của thư viện - Chọn thành phần HTML sau đó bắt sự kiện rồi điều khiển
+
+
+Nhóm điều khiển:
+1. Effect (hiệu ứng điều khiển - đóng, mở, mờ, rõ, ẩn, hiện,...)
+2. Liên quan nội dung HTML và CSS
++ Lấy, thay đổi nội dung / thêm bớt thẻ html / thêm bớt lấy nội dung thuộc tính html (class, src, ...)
++ Điều khiển css bằng jQuery (gán css, thay đổi thuộc tính đồ họa)
+3. Chọn lựa - di chuyển giữa các thành phần html
+4. Ajax jQuery 
+
+
+II. Sử dụng plugin
+
+- Tìm hiểu tính năng đang cần xây dựng, tìm kiếm plugin phù hợp
+- Tích hợp, tạo thành phần giao diện dùng plugin đó 
+- Tùy biến (
+    + tham số plugin cung cấp
+    + tùy biến với css
+    + tùy biến thêm code jquery
+
