@@ -1,0 +1,55 @@
+﻿Biến nhớ:
+
+var    ten_bien = gtri;
+
+          gtri có thể: 
+          * là biến khác
+          * là giá trị cụ thể số, "chuối" / 'chuỗi'
+          * là một hàm         a = function(){  noi dung;    };
+          * là một đối tượng, thành phần html $('#menu');
+
+Đối tượng:
+
+1. Đối tượng định nghĩa, tạo mới (biến)
+var person = {
+            Name: "John",
+            age: 50,
+            eyeColor: "blue"
+};
+
+2. Thuộc tính
+
+  =  {
+          ten_thuoc_tinh: gtri,
+          ten_thuoc_tinh: gtri,
+       }
+
+3. Phương thức
+  var tp1 = function(){  .... noi dung; }
+  =  {
+          ten_thuoc_tinh: gtri,
+          ten_thuoc_tinh: gtri,
+          ten_phuong_thuc: function(){
+                  .... noi dung;
+          },
+          ten_phuong_thuc: function(){
+                  .... noi dung;
+          },
+          ten : tp1,
+       }
+
+
+cấu trúc dữ liệu JSON
+http://www.jsoneditoronline.org/
+
+
+Những thứ cơ bản của plugin 
+- html (nội dung thể hiện)
+- css (định dạng nội dung)
+- js (lệnh tương tác, tạo đối tượng plugin)
+- images (dữ liệu hình ảnh)
+- fonts (phông chữ)
+
+
+
+

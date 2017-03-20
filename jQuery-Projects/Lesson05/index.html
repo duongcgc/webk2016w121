@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css">
+    <link rel="stylesheet" href="nivo-slider/themes/default/default.css">
+</head>
+<body>
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt=""/>
+            <a href="http://dev7studios.com"><img src="images/slide2.jpg" alt="" title="#htmlcaption"/></a>
+            <img src="images/slide3.jpg" alt="" title="This is an example of a caption"/>
+            <img src="images/slide4.jpg" alt=""/>
+        </div>
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="nivo-slider/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            $('#slider').nivoSlider({
+                effect: 'random',
+                animSpeed: 500,
+                directionNav: false,
+                lastSlide: function(){
+//                    alert('This is last Photo');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
