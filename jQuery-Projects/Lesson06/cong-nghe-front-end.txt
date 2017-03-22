@@ -1,0 +1,10 @@
+﻿Công nghệ 
+
+1. HTML5 Video
+2. Sticky 
+3. Show Element scroll
+4. Mansonry
+5. Menu Responsive
+6. Auto Scroll
+7. Loading
+8. Paralax
