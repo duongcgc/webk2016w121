@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ddb5f00-e6f6-403b-8e2e-aa3cc98fdfb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/jplayer/jquery.jplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/image/jplayer.blue.monday.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/image/jplayer.blue.monday.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/image/jplayer.pink.flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/image/jplayer.pink.flag.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/add-on/jplayer.playlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/add-on/jplayer.playlist.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/add-on/jquery.jplayer.inspector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/add-on/jquery.jplayer.inspector.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/jplayer/jquery.jplayer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/jplayer/jquery.jplayer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/css/jplayer.blue.monday.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/css/jplayer.blue.monday.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/css/jplayer.pink.flag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/css/jplayer.pink.flag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/assets/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06/video_html5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06_2/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06_2/assets/js/jquery-3.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06_2/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson06_2/mansonry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,50 +41,7 @@
     <favorites_list name="jQuery-Projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="demo-01-video.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/jPlayer-2.9.2/examples/blue.monday/demo-01-video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video_html5.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson06/video_html5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#1041#1047#1" expanded="true" />
-                <element signature="e#1134#1140#1" expanded="true" />
-                <element signature="e#2630#2636#1" expanded="true" />
-                <element signature="e#2887#2893#1" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#4035#4041#1" expanded="true" />
-                <element signature="e#4128#4134#1" expanded="true" />
-                <element signature="e#4251#4257#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson06/assets/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2282">
-              <caret line="133" column="3" lean-forward="false" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,6 +70,10 @@
         <option value="$PROJECT_DIR$/Lesson05/index.html" />
         <option value="$PROJECT_DIR$/Lesson06/assets/js/main.js" />
         <option value="$PROJECT_DIR$/Lesson06/video_html5.html" />
+        <option value="$PROJECT_DIR$/Lesson06_2/assets/css/script.css" />
+        <option value="$PROJECT_DIR$/Lesson06_2/mansonry.html" />
+        <option value="$PROJECT_DIR$/Lesson06_2/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/Lesson06_2/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -178,7 +113,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -196,6 +133,78 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson06_2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson06_2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson06_2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson06_2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="jQuery-Projects" />
@@ -234,11 +243,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/K16W121/HTML-Projects/jQuery-Projects/Lesson06/assets/js/main.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/K16W121/HTML-Projects/jQuery-Projects/Lesson06_2/assets/js/main.js&#10;ma&#9;FILE&#9;file://D:/K16W121/HTML-Projects/jQuery-Projects/Lesson06/assets/js/main.js" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\K16W121\HTML-Projects\jQuery-Projects\Lesson06_2\assets\js" />
       <recent name="D:\K16W121\HTML-Projects\jQuery-Projects\Lesson06\assets" />
       <recent name="D:\K16W121\HTML-Projects\jQuery-Projects\Lesson06\assets\js" />
       <recent name="D:\K16W121\HTML-Projects\jQuery-Projects\Lesson05" />
@@ -306,6 +316,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5ddb5f00-e6f6-403b-8e2e-aa3cc98fdfb2" name="Default" comment="" />
@@ -320,12 +333,12 @@
       <workItem from="1490009373069" duration="3288000" />
       <workItem from="1490015243144" duration="1246000" />
       <workItem from="1490182058068" duration="627000" />
-      <workItem from="1490184383508" duration="2587000" />
+      <workItem from="1490184383508" duration="4993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12855000" />
+    <option name="totallyTimeSpent" value="15261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +353,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28623718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23206443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,24 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/jPlayer-2.9.2/examples/blue.monday/demo-01-video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson06/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2282">
-          <caret line="133" column="3" lean-forward="false" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson06/assets/add-on/jplayer.playlist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -541,9 +536,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson06_2/assets/js/jquery-3.2.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson06/video_html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
+        <state relative-caret-position="-95">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -556,6 +559,48 @@
             <element signature="e#4128#4134#1" expanded="true" />
             <element signature="e#4251#4257#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jPlayer-2.9.2/examples/blue.monday/demo-01-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson06/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="133" column="3" lean-forward="false" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson06_2/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson06_2/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson06_2/mansonry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
